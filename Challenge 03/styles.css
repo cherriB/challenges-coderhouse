@@ -1,0 +1,60 @@
+
+body {
+	background-color: #C8F7C5;
+ 	font-family: 'Nunito', sans-serif;
+ }
+
+nav {
+	margin-top:-100px;
+	background-color: white;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+	margin-left: -10px;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+header a, a:active {
+	color:#1abc9c;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+header a:hover{
+	color:#e67e22;
+}
+
+.principal {
+	font-size: 100px;
+	color:#16A085;
+}
+
+.secondary {
+	font-size:36px;
+	color:#F89406;
+}
+
+.parrafo-1 {
+	margin-top: 100px;
+	font-size: 14px;
+	background-color: white;
+	color:;
+}
+
+.parrafo-2 {
+	font-size: 16px;
+}
+
+#home{
+	margin-top: 100px;
+}
