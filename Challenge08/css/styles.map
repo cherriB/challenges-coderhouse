@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../sass/styles.css",
+	"sources": [
+		"../sass/styles.scss",
+		"../sass/colores.scss"
+	],
+	"sourcesContent": [
+		"@import'colores';\n\n$colorFondo:yellow;\n$fuente:roboto;\n@mixin caja($ancho, $alto) {\n\twidth: $ancho;\n\theight: $alto;\n}\n\nbody {\n\tbackground-color: $colorFondo;\n}\n\nh1 {\n\tfont-family: $fuente;\n\tcolor: $colorFuente;\n}\n\nul {\n\tlist-style: none;\n\tli {\n\t\tdisplay: flex;\n\t\tjustify-content: flex-start;\n\t\ta {\n\t\t\ttext: {\n\t\t\t\tdecoration: none;\n\t\t\t\ttransform: uppercase;\n\t\t\t}\n\t\t}\n\t}\n}\n.contenido {\n\twidth: 400px;\n\t.esp & {\n\t\twidth: 300px;\n\t}\n}\n.cajon {\n\t@include caja(200px, 100px);\n\tbackground-color: $colorFondo;\n}",
+		"$colorFuente: red;\n"
+	],
+	"mappings": ";AASA,AAAA,IAAI,CAAC;EACJ,gBAAgB,EARL,MAAM;CASjB;;;AAED,AAAA,EAAE,CAAC;EACF,WAAW,EAXJ,MAAM;EAYb,KAAK,ECfQ,GAAG;CDgBhB;;;AAED,AAAA,EAAE,CAAC;EACF,UAAU,EAAE,IAAK;CAWjB;;;AAZD,AAEC,EAFC,CAED,EAAE,CAAC;EACF,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,UAAW;CAO5B;;;AAXF,AAKE,EALA,CAED,EAAE,CAGD,CAAC,CAAC;EACD,IAAI,AAAC,CAAC,AACL,UAAU,EAAE,IAAK;EADlB,IAAI,AAAC,CAAC,AAEL,SAAS,EAAE,SAAU;CAEtB;;;AAGH,AAAA,UAAU,CAAC;EACV,KAAK,EAAE,KAAM;CAIb;;;AAHA,AAFD,IAEK,CAFL,UAAU,CAEF;EACN,KAAK,EAAE,KAAM;CACb;;;AAEF,AAAA,MAAM,CAAC;EAhCN,KAAK,EAiCS,KAAK;EAhCnB,MAAM,EAgCe,KAAK;EAC1B,gBAAgB,EArCL,MAAM;CAsCjB",
+	"names": []
+}

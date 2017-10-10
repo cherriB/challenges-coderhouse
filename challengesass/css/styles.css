@@ -1,0 +1,12 @@
+body {
+  background-color: blue;
+  color: green; }
+
+h2 {
+  color: grey; }
+
+.container, item {
+  height: 200px;
+  width: 200px; }
+
+/*# sourceMappingURL=styles.css.map */

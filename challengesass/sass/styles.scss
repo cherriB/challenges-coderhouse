@@ -1,0 +1,31 @@
+$color_principal: blue;
+$color_secundario: green;
+$auxiliar: grey;
+
+@mixin color_principal {
+	color:$color_principal;
+}
+@mixin color_secundario {
+	color: $color_secundario;
+}
+@mixin auxiliar {
+	color:$auxiliar;
+}
+body {
+	background-color: $color_principal;
+	@include color_secundario;
+}
+
+
+h2 {
+	color: $auxiliar;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+}
+
+item {
+	@extend .container;
+}

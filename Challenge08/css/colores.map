@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/colores.css",
+	"sources": [
+		"../sass/colores.scss"
+	],
+	"sourcesContent": [
+		"$colorFuente: red;\n"
+	],
+	"mappings": "",
+	"names": []
+}

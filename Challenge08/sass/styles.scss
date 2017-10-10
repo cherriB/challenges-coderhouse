@@ -1,0 +1,51 @@
+@import'colores';
+
+$colorFondo:yellow;
+$fuente:roboto;
+@mixin caja($ancho, $alto) {
+	width: ($ancho/2) + 100px;
+	height: $alto;
+}
+
+body {
+	background-color: $colorFondo;
+}
+
+h1 {
+	font-family: $fuente;
+	color: $colorFuente;
+}
+
+ul {
+	list-style: none;
+	li {
+		display: flex;
+		justify-content: flex-start;
+		a {
+			text: {
+				decoration: none;
+				transform: uppercase;
+			}
+		}
+	}
+}
+.contenido {
+	width: 400px;
+	.esp & {
+		width: 300px;
+	}
+}
+.cajon {
+	@include caja(300px, 300px);
+	background-color: $colorFondo;
+}
+
+.casa {
+	width: 100px;
+	height: 200px;
+	background-color: green;
+}
+.depto {
+	@extend .casa;
+	border: solid grey 1px;
+}
